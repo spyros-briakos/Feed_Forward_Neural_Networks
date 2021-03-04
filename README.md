@@ -1,20 +1,8 @@
 # Twitter_Sentiment_Classifier
-Our goal is to predict tweet comment's sentiment by experimenting with two different types of vectorization (GloVe and TfIdf).
+Our goal is to predict tweet comment's sentiment, from [dataset](https://drive.google.com/file/d/1dTIWNpjlrnTQBIQtaGOh0jCRYZiAQO79/view), by experimenting with two different types of vectorization (GloVe and TfIdf).
 
+In [GloVe Model](https://github.com/spympr/Twitter_Sentiment_Classifier/blob/main/GloVe_Model.ipynb) we constructed functions which vectorize data with help of glove.6B.50d model, which we retrieved from [GloVe's site](https://nlp.stanford.edu/projects/glove/). Afterwards, we trained our non-deep feed forward neural network and evaluated on test data.
 
-Our [dataset](https://drive.google.com/file/d/1dTIWNpjlrnTQBIQtaGOh0jCRYZiAQO79/view)
+On the other hand, in [TfIdf Model](https://github.com/spympr/Twitter_Sentiment_Classifier/blob/main/TfIdf_Model.ipynb), we vectorized data with TdIdf-Vectorizer and we constructed a swallow and a deep feed forward neural network. After training's procedure, we displayed classification report,ROC plot of results and finally compare our models!
 
-In [GloVe Model](https://github.com/spympr/Twitter_Sentiment_Classifier/blob/main/GloVe_Model.ipynb) we constructed functions which vectorize words with help of glove.6B.50d model, which we retrieved from [GloVe's site](https://nlp.stanford.edu/projects/glove/). Afterwards, 
-
-On the other hand, in [TfIdf Model](https://github.com/spympr/Twitter_Sentiment_Classifier/blob/main/TfIdf_Model.ipynb) 
-
-
-
-
-
-glove.6B.50d 
-pytorch 
-cuda gpu
-
-non deep glove
-swallow and deep feed forward NN for tfidf
+Note that these notebooks were implemented with Machine Learning Library Pytorch and running's procedure took place on Google Colab, enhanced with cuda GPU! 
