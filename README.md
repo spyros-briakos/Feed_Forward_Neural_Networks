@@ -1,9 +1,9 @@
 # Twitter_Sentiment_Classifier
 Our goal is to predict  tweet comment's sentiment by experimenting with two different types of vectorization (GloVe and TfIdf).
 
-[GloVe Model]()
+[GloVe Model](https://github.com/spympr/Twitter_Sentiment_Classifier/blob/main/GloVe_Model.ipynb)
 
-[TfIdf Model]()
+[TfIdf Model](https://github.com/spympr/Twitter_Sentiment_Classifier/blob/main/TfIdf_Model.ipynb)
 
 
 
