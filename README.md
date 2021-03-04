@@ -6,9 +6,9 @@ In [GloVe Model](https://github.com/spympr/Twitter_Sentiment_Classifier/blob/mai
 On the other hand, in [TfIdf Model](https://github.com/spympr/Twitter_Sentiment_Classifier/blob/main/TfIdf_Model.ipynb), we vectorized data with TdIdf-Vectorizer and we constructed a swallow and a deep feed forward neural network. After training's procedure, we displayed learning curves, classification report and ROC plot of results and finally compare our models!
 
 In both models we managed to experiment with: 
-• the number of hidden layers, and the number of their units
-• the activation functions
-• the loss function
-• the optimizer
+* the number of hidden layers, and the number of their units
+* the activation functions
+* the loss function
+* the optimizer
 
 Note that these notebooks were implemented with Machine Learning Library Pytorch and running's procedure took place on Google Colab, enhanced with cuda GPU!
